@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 14px;
+}
+.wrap {
+  width: 100%;
+}
+.wrap header {
+  width: 100%;
+}
+.wrap header .navbar {
+  height: 60px;
+  border: none;
+}
+.wrap header .navbar .min-box .logo img {
+  display: block;
+  margin-top: -5px;
+}
+.wrap header .navbar .min-box a {
+  line-height: 55px;
+  background-color: transparent;
+  font-size: 16px;
+  color: #333;
+  z-index: 999;
+}
+.wrap header .navbar .min-box a:hover {
+  color: #d9534f;
+}
+.wrap header .navbar .min-box .active {
+  color: #d9534f;
+}
+.wrap header .navbar .navbar-nav li {
+  padding-right: 15px;
+}
