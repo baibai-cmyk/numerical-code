@@ -30,4 +30,11 @@ a:hover {
 span,
 p {
     color: #999;
+<<<<<<< HEAD
+=======
+}
+
+.page-header {
+    border-bottom: none;
+>>>>>>> 757befe41bf60a1b43b02bde1bfcfb7843cfba41
 }
