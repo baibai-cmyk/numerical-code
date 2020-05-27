@@ -1,0 +1,30 @@
+header {
+  width: 100%;
+  background-color: #fff;
+}
+header .navbar {
+  border: none;
+}
+header .navbar .min-box .logo {
+  width: 274px;
+  display: block;
+}
+header .navbar .min-box .logo img {
+  width: 100%;
+  height: 68px;
+  display: block;
+  margin-top: -10px;
+}
+header .navbar .min-box a {
+  line-height: 43px;
+  background-color: transparent;
+  font-size: 16px;
+  z-index: 999;
+}
+header .navbar .min-box a:hover,
+header .navbar .min-box a:focus {
+  color: #d9534f;
+}
+header .navbar .navbar-nav li {
+  padding-right: 15px;
+}
