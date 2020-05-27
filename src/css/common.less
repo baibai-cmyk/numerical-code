@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 768px) {
+    footer .bgTu {
+        background-image: none;
+        background-color: black;
+      }
+}
+@media screen and (max-width: 1200px) {
+    footer .bgTu .design_foot .No-Name {
+        margin-top: 0;
+      }
+      .bgTu .design_foot .login form {
+        padding: 0 20px 0px 0;
+      }
+}
+.bgTu {
+    background: url(../../static/images/bgFooter.png) no-repeat;
+    background-size: 100%;
+    .design_foot {
+        color: #ffffff;
+        width: 65%;
+        margin: 0 auto;
+        .No-Name {
+            margin-top: 5%;
+        }
+        .site {
+            padding-left: 90px;
+            h3 {
+                color: #dedede;
+                font-size: 16px;
+            }
+            p {
+                color: #a9a9a9;
+            }
+            img {
+                margin-left: 15px;
+                margin-top: 30px;
+            }
+        }
+        .login {
+            background-color: #f7f7f7;
+            color: black;
+            padding: 5px 30px 0px 30px;
+            form {
+                padding: 30px 20px 0px 30px;
+                background-color: #ffffff;
+                input,
+                textarea {
+                    background-color: #f7f7f7;
+                }
+            }
+        }
+        .copyright {
+            p {
+                text-align: center;
+                &:first-child {
+                    color: #a9a9a9;
+                }
+            }
+        }
+    }
+}

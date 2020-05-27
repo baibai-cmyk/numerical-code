@@ -1,93 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>数码商城</title>
     <link rel="stylesheet" href="../common/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../common/base.css">
     <link rel="stylesheet" href="./css/style.css">
     <script src="../common/jquery-3.1.0.js"></script>
     <script src="../common/bootstrap/js/bootstrap.min.js"></script>
     <script src="./js/main.js"></script>
 </head>
+
 <body>
     <!-- 网页包裹层star -->
     <div class="wrap">
         <!-- 导航栏star -->
         <header>
             <nav class="navbar navbar-default container" style="background-color: rgba(255, 255, 255,1);">
-                <div class="container-fluid min-box">
-                  <!-- logo-star -->
-                  <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" style="margin-top: 23px;" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand logo" href="#" title="logo">
-                      <img src="../static/images/logo.png" alt="logo">
-                    </a>
-                  </div>
-                  <!-- logo-end -->
-                  <!-- 选项栏star -->
-                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                      <li><a href="#" class="active">首页</a></li>
-                      <li><a href="#">产品中心</a></li>
-                      <li><a href="#">新闻咨询</a></li>
-                      <li><a href="#">服务支持</a></li>
-                      <li><a href="#">关于我们</a></li>
-                      <li><a href="#">联系我们</a></li>
-                    </ul>
-                  </div>
-                  <!-- 选项栏end -->
-                </div><!-- /.container-fluid -->
-              </nav>
+                <div class="container min-box">
+                    <!-- logo-star -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" style="margin-top: 23px;" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand logo" href="#" title="logo">
+                            <img src="../images/logo.png">
+                        </a>
+                    </div>
+                    <!-- logo-end -->
+                    <!-- 选项栏star -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right " id="options">
+                            <li><a href="javascript:0;">首页</a></li>
+                            <li><a href="javascript:0;">产品中心</a></li>
+                            <li><a href="javascript:0;">新闻咨询</a></li>
+                            <li><a href="javascript:0;">服务支持</a></li>
+                            <li><a href="javascript:0;">关于我们</a></li>
+                            <li><a href="javascript:0;">联系我们</a></li>
+                        </ul>
+                    </div>
+                    <!-- 选项栏end -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
         </header>
         <!-- 导航栏end -->
-        
         <!-- 中间区域star -->
-        <div class="main-box">
-            <!-- 轮播图区域star -->
-            <div class="slider-box">
-              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <!-- 轮播图区域star -->
+        <div class="slider-box">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
-                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                 </ol>
-                <!-- Wrapper for slides -->
+                <!-- 轮播图片 -->
                 <div class="carousel-inner" role="listbox">
-                  <div class="item active">
-                    <img src="../static/images/slide1.jpg">
-                    <div class="carousel-caption">
+                    <div class="item active">
+                        <img src="../images/slide1.jpg">
+                        <div class="carousel-caption">
+                        </div>
                     </div>
-                  </div>
-                  <div class="item">
-                    <img src="../static/images/slide2.jpg">
-                    <div class="carousel-caption">
+                    <div class="item">
+                        <img src="../images/slide2.jpg">
+                        <div class="carousel-caption">
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
             </div>
-            <!-- 轮播图区域end -->
+        </div>
+        <!-- 轮播图区域end -->
 
-            <!-- 产品区域star -->
-            <div class="product"></div>
-            <!-- 产品区域end -->
-
-            <!-- 标语区域star -->
-            <div class="slogan"></div>
-            <!-- 标语区域end -->
+        <!-- 产品区域star -->
+        <div class="product">
+            <!-- 标语1star -->
+            <div class="page-header slogan1">
+                <p><a href="javascript:0;">COMP </a>产品中心</p>
+                <p>PRODUCT</p>
             </div>
+            <!-- 标语1end -->
+            <!-- 音响产品块star -->
+            <div class="prod">
+                <div class="container box">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4">
+                            <div class="min-box">
+
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="min-box"></div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="min-box"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 音响产品块end -->
+        </div>
+        <!-- 产品区域end -->
+
+        <!-- 标语区域star -->
+        <div class="slogan"></div>
+        <!-- 标语区域end -->
         <!-- 中间区域end -->
-        
+
         <!-- 底部栏star -->
         <footer></footer>
         <!-- 底部栏end -->
     </div>
     <!-- 网页包裹层end -->
 </body>
+
 </html>

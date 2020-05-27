@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  footer .bgTu {
+    background-image: none;
+    background-color: black;
+  }
+}
+@media screen and (max-width: 1200px) {
+  footer .bgTu .design_foot .No-Name {
+    margin-top: 0;
+  }
+  .bgTu .design_foot .login form {
+    padding: 0 20px 0px 0;
+  }
+}
+.bgTu {
+  background: url(../../static/images/bgFooter.png) no-repeat;
+  background-size: 100%;
+}
+.bgTu .design_foot {
+  color: #ffffff;
+  width: 65%;
+  margin: 0 auto;
+}
+.bgTu .design_foot .No-Name {
+  margin-top: 5%;
+}
+.bgTu .design_foot .site {
+  padding-left: 90px;
+}
+.bgTu .design_foot .site h3 {
+  color: #dedede;
+  font-size: 16px;
+}
+.bgTu .design_foot .site p {
+  color: #a9a9a9;
+}
+.bgTu .design_foot .site img {
+  margin-left: 15px;
+  margin-top: 30px;
+}
+.bgTu .design_foot .login {
+  background-color: #f7f7f7;
+  color: black;
+  padding: 5px 30px 0px 30px;
+}
+.bgTu .design_foot .login form {
+  padding: 30px 20px 0px 30px;
+  background-color: #ffffff;
+}
+.bgTu .design_foot .login form input,
+.bgTu .design_foot .login form textarea {
+  background-color: #f7f7f7;
+}
+.bgTu .design_foot .copyright p {
+  text-align: center;
+}
+.bgTu .design_foot .copyright p:first-child {
+  color: #a9a9a9;
+}
