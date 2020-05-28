@@ -1,6 +1,7 @@
 .wrap {
   width: 100%;
   height: 100%;
+  position: relative;
   /*导航栏*/
   /*轮播图*/
   /*产品块1*/
@@ -608,4 +609,17 @@
 }
 .wrap .bgTu .design_foot .copyright p:first-child {
   color: #a9a9a9;
+}
+.wrap .chat {
+  width: 58px;
+  cursor: pointer;
+  position: absolute;
+  position: fixed;
+  top: 80%;
+  right: 15px;
+  display: none;
+}
+.wrap .chat img {
+  width: 100%;
+  height: 100%;
 }

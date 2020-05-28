@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../common/base.css">
+    <link rel="stylesheet" href="./css/chatbox.css">
+    <script src="../common/jquery-3.1.0.js"></script>
+    <script src="./js/chatbox.js"></script>
+</head>
+<style>
+    .chatbox {
+        display: block;
+    }
+</style>
+
+<body>
+    <div class="chatbox">
+        <div class="header">
+            <p>在线客服</p>
+            <div class="close" title="关闭" id="close">×</div>
+        </div>
+        <div class="content">
+            <div class="alert alert-danger warnning" role="alert">消息内容不能为空</div>
+            <span class="time" id="time"></span>
+            <ul id="msgList">
+                <li class="left fxied">
+                    <img src="../images/robot.png">
+                    <span>您好！我是菲菲，非常欢迎您的到来，有什么想和我聊聊的吗？</span>
+                </li>
+            </ul>
+        </div>
+        <div class="in_msg">
+            <textarea class="input" placeholder="请输入内容" id="msg"></textarea>
+            <a href="javascript:0;" class="send" id="sendMsg">发送</a>
+        </div>
+    </div>
+</body>
+
+</html>

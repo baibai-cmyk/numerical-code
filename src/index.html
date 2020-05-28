@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="../common/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../common/base.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/chatbox.css">
     <script src="../common/jquery-3.1.0.js"></script>
     <script src="../common/bootstrap/js/bootstrap.min.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/chatbox.js"></script>
 </head>
 
 <body>
@@ -342,7 +344,7 @@
                                     <p class="small col-sm-12">电话：888-888-8888</p>
                                     <p class="small col-sm-12">手机：13888888888</p>
                                     <p class="small col-sm-12">邮箱：youxiang@163.com</p>
-                                    <img src="./images/bgErWeiMa.jpg">
+                                    <img src="../images/bgErWeiMa.jpg">
                                 </div>
                             </div>
                             <div class="login col-lg-8 col-md-12 hidden-sm hidden-xs">
@@ -393,6 +395,31 @@
             <!-- 底部栏end -->
             <!-- 底部栏end -->
         </div>
+        <!-- 聊天盒子star -->
+        <div class="chat hidden-sm hidden-xs">
+            <img src="../images/robot.png">
+        </div>
+        <div class="chatbox hidden-sm hidden-xs">
+            <div class="header">
+                <p>在线客服</p>
+                <div class="close" title="关闭" id="close">×</div>
+            </div>
+            <div class="content">
+                <div class="alert alert-danger warnning" role="alert">消息内容不能为空</div>
+                <span class="time" id="time"></span>
+                <ul id="msgList">
+                    <li class="left fxied">
+                        <img src="../images/robot.png">
+                        <span>您好！我是菲菲，非常欢迎您的到来，有什么想和我聊聊的吗？</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="in_msg">
+                <textarea class="input" placeholder="请输入内容" id="msg"></textarea>
+                <a href="javascript:0;" class="send" id="sendMsg">发送</a>
+            </div>
+        </div>
+        <!-- 聊天盒子end -->
         <!-- 网页包裹层end -->
 </body>
 
