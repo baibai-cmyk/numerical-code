@@ -1,0 +1,110 @@
+.content {
+  width: 100%;
+}
+.content .banner img {
+  width: 100%;
+}
+.content .pro-list .item-list {
+  width: 100%;
+  height: 100%;
+}
+.content .pro-list .item-list li {
+  margin-top: 30px;
+  border-bottom: 1px solid #e8eaec;
+}
+.content .pro-list .item-list li:hover img {
+  transform: scale(1.1);
+}
+.content .pro-list .item-list li:hover .text {
+  left: 10px;
+}
+.content .pro-list .item-list li:hover .more {
+  width: 100px;
+  background-color: #d9534f;
+  width: 85px;
+  text-align: center;
+  color: #fff;
+  right: 10px;
+}
+.content .pro-list .item-list li:hover .more span {
+  font-family: "宋体";
+  color: #fff;
+}
+.content .pro-list .item-list li .pic {
+  width: 270px;
+  height: 135px;
+  margin-left: 42px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  float: left;
+}
+.content .pro-list .item-list li .pic img {
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+@media screen and (max-width: 375px) {
+  .content .pro-list .item-list li .pic {
+    margin-left: 42px;
+  }
+}
+.content .pro-list .item-list li .text {
+  float: left;
+  margin-top: 10px;
+  transition: 0.4s;
+  position: relative;
+  left: 0;
+}
+.content .pro-list .item-list li .text .title {
+  display: block;
+  padding-bottom: 15px;
+  font-size: 16px;
+}
+.content .pro-list .item-list li .text .title:hover {
+  color: #333;
+}
+.content .pro-list .item-list li .text .title span {
+  float: right;
+  font-size: 14px;
+}
+.content .pro-list .item-list li .text .plan {
+  font-size: 13px;
+  cursor: default;
+}
+.content .pro-list .item-list li .text .plan .more {
+  display: block;
+  font-size: 14px;
+  float: right;
+  position: relative;
+  line-height: 28px;
+  right: 0;
+  transition: 0.6s;
+}
+.content .pro-list .item-list li .text .plan .more span {
+  position: relative;
+  top: 1px;
+  font-weight: bold;
+  padding: 0 0 0 10px;
+}
+@media screen and (max-width: 375px) {
+  .content .pro-list .item-list li .text .title {
+    text-align: center;
+    padding-left: 18px;
+  }
+  .content .pro-list .item-list li .text .title span {
+    display: block;
+    padding-right: 9px;
+    float: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .content .pro-list .item-list li .text {
+    float: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .content .pro-list .item-list li .text {
+    float: none;
+  }
+}

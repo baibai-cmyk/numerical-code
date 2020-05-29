@@ -1,3 +1,4 @@
+@color:#d9534f;
 .chatbox {
     width: 600px;
     box-shadow:  0 0 5px #ccc;
@@ -33,7 +34,7 @@
             cursor: pointer;
             &:hover {
                 color: #fff;
-                background-color: rgba(250, 81, 81);
+                background-color: @color;
             }
         }
     }
@@ -45,6 +46,8 @@
         .warnning {
             text-align: center;
             display: none;
+            position: fixed;
+            z-index: 9999999;
         }
         .time {
            position: absolute;
@@ -82,7 +85,7 @@
             }
             .fxied {
                 margin-top: 35px;
-                margin-bottom: 30px;
+                margin-bottom: 1px;
             }
             .left {
                 float: left;
@@ -134,13 +137,13 @@
             top: 68px;
             right: 9px;
             display: block;
-            border: 1px solid #d9534f;
+            border: 1px solid @color;
             border-radius: 12px;
             text-align: center;
             float: right;
-            color: #d9534f;
+            color: @color;
             &:hover {
-                background-color: #d9534f;
+                background-color: @color;
                 color: #fff;
             }
         }

@@ -4,14 +4,14 @@ header {
 }
 header .navbar {
   border: none;
+  margin-bottom: 0;
 }
 header .navbar .min-box .logo {
   width: 274px;
   display: block;
 }
 header .navbar .min-box .logo img {
-  width: 100%;
-  height: 68px;
+  height: 55px;
   display: block;
   margin-top: -10px;
 }

@@ -36,7 +36,7 @@
 }
 .chatbox .header .close:hover {
   color: #fff;
-  background-color: rgba(250, 81, 81);
+  background-color: #d9534f;
 }
 .chatbox .content {
   width: 100%;
@@ -47,6 +47,8 @@
 .chatbox .content .warnning {
   text-align: center;
   display: none;
+  position: fixed;
+  z-index: 9999999;
 }
 .chatbox .content .time {
   position: absolute;
@@ -85,7 +87,7 @@
 }
 .chatbox .content ul .fxied {
   margin-top: 35px;
-  margin-bottom: 30px;
+  margin-bottom: 1px;
 }
 .chatbox .content ul .left {
   float: left;

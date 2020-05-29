@@ -1,4 +1,4 @@
-$(function() {
-    //轮播图
+$(() => {
     $('.carousel').carousel();
+    NavigationEntry("新闻咨询");
 })
